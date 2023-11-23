@@ -1,5 +1,9 @@
 body {
     background-color:rgb(41, 42, 42);
     text-align: center;
+    padding: 50%;
+}
+
+p {
     color: white;
 }
