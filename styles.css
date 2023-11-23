@@ -1,7 +1,8 @@
 body {
-    background-color:rgb(41, 42, 42);
+    background-color:rgb(44, 44, 44);
     text-align: center;
-    padding: 50%;
+    margin: 30%;
+    padding: 10px;
 }
 
 p {
