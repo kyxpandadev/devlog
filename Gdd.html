@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlog</title>
+    <link rel="stylesheet" href="../Stylesheets/styles.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <li id = "nav-link-home"><a href="index.html">Home</a></li>
+            <li id = "nav-link-about"><a href="about_us.html">About Me</a></li>
+            <li id = "nav-link-devlog"><a href="Gdd.html">Game Design Document</a></li>
+            <li id = "nav-link-contact"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Game Design Document</h1>
+    <ul class = "general-info-ul">
+        <li class = "general-info">Game name: G'old Days</li>
+        <li class = "general-info">Made by Kyxpanda Dev</li>
+        <li class = "general-info">Engine used: Unreal Engine 5.3</li>
+        <li class = "general-info">Programming Style: Blueprint + C++</li>
+    </ul>
+
+
+    <h2>Gameplay overview</h2>
+        
+    <p>
+        Looter shooter inspired by the likes of Destiny, warframe set in a Futuristic wild west. 
+        You are in a constant dangerous cat and mouse game with the law and different gangs. 
+        Loot weapons and materials to get on top of the threats you will face
+    </p>
+        
+
+    <h2>Narrative </h2>
+    <p>
+        Set in a more futuristic Wild west setting Outlaws are everywhere and trying to overtake Each other in the amount of wealth they each hold. its like a game.
+        You play as one of these outlaws starting from nothing
+    </p>
+
+    <h2> Minimum Viable Product</h2>
+    <ul>
+        <li>Rarity system</li>
+        <ul>
+            <li>Common</li>
+            <li>Uncommon</li>
+            <li>Legendary</li>
+            <li>Godlike</li>
+        </ul>
+        <li>Objects To loot</li>
+        <li>Weapon system</li>
+        <ul>
+            <li>Weapon Types:</li>
+            <ul>
+                <li>AR</li>
+                <li>Melee</li>
+            </ul>
+            <li>Damage Types:</li>
+            <ul>
+                <li>Bleed</li>
+                <li>Piercing</li>
+            </ul>
+        </ul>
+        <li>Movement</li>
+        <ul>
+            <li>WASD Movement</li>
+            <li>Sprinting</li>
+            <li>Crouching</li>
+        </ul>
+        <li>Grey box for demo scene</li>
+    </ul>
+    <h2> Pre alpha</h2>
+    <ul>
+        <li>Upgrade System</li>
+        <ul>
+            <li>Mods</li>
+            <li>Ways to reroll gear</li>
+        </ul>
+        <li>Improvement on Movement</li>
+        <ul>
+            <li>WASD movement move to c++</li>
+            <li>Sliding</li>
+        </ul>
+        <li>Player Base</li>
+        <ul>
+            <li>Quest Giver</li>
+            <li>Weapon black market</li>
+            <li>Wardrobe</li>
+            <li>Door to leave</li>
+        </ul>
+        <li>Quest system</li>
+        <ul>
+            <li>Speak to NPC</li>
+            <li>GET ALL QUEST OBJECTS</li>
+            <li>plus one in the array</li>
+            <li>Get last completed quest</li>
+            <li>Load that quest information</li>
+            <li>NPC gives quest description</li>
+            <li>Player goes to saloon doors</li>
+            <li>Quest scene gets loaded</li>
+            <li>Player does Quest at end of level</li>
+            <li>levelCompletedBool is set to true</li>
+            <li>maybe increment array here</li>
+        </ul>
+        <li>Quest Object</li>
+        <ul>
+            <li>Quest name (string)</li>
+            <li>Quest Index (int)</li>
+            <li>Quest Objective (String/ItemToCollect??)</li>
+            <li>Quest description (string)</li>
+            <li>Has level Been completed (Bool)</li>
+            <li>Last completed quest (if Quest index > 0){LCQ = Quest index -1 else LCQ = 0} </li>
+        </ul>
+    </ul>
+</body>
+</html>
