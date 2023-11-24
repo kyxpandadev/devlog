@@ -6,6 +6,13 @@ body {
     padding: 10px;
 }
 
+a:hover{
+    background-color: darkgray;
+}
+
+a{
+    background-color: black;
+}
 
 h1, h2, h3, h4, h5{
     color: lightgrey;
