@@ -19,12 +19,96 @@ h1, h2, h3, h4, h5{
     background-color: rgb(15, 15, 15);
 }
 
-.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#nav-bar {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 70px;
+   z-index: 1000;
+   transition: 0.2s ease-in-out;
 }
 
-p {
-    color: white;
+/* #nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 23px 0px;
+    position: absolute;
+    top: 2px;
+    opacity: 0.85;
+    right: 195px;
+ } */
+
+#nav-link-devlog {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 23px 0px;
+    position: absolute;
+    top: 2px;
+    opacity: 0.85;
+    right: 195px;
+    text-decoration: none
+} 
+
+#nav-link-home {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 23px 0px;
+    position: absolute;
+    top: 2px;
+    opacity: 0.85;
+    right: 195px;
+    text-decoration: none
+}
+
+#nav-link-about {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 23px 0px;
+    position: absolute;
+    top: 2px;
+    opacity: 0.85;
+    right: 195px;
+    text-decoration: none
+}
+
+#nav-link-contact {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 23px 0px;
+    position: absolute;
+    top: 2px;
+    opacity: 0.85;
+    right: 195px;
+    text-decoration: none
+}
+
+#nav-link-home:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+#nav-link-about:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+#nav-link-devlog:hover {
+   cursor: pointer;
+   border-bottom: 2px solid #fff;
+}
+
+#nav-link-contact:hover {
+   cursor: pointer;
+   border-bottom: 2px solid #fff;
 }
