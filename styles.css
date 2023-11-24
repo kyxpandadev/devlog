@@ -1,8 +1,19 @@
+
 body {
     background-color:rgb(44, 44, 44);
-    text-align: center;
-    margin: 30%;
+    text-align: left;
+    margin: 4rem 10%;
     padding: 10px;
+}
+
+
+h1, h2{
+    color: lightgrey;
+    background-color: rgb(15, 15, 15);
+}
+
+.nav-bar {
+    list-style: none;
 }
 
 p {
